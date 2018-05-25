@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route('/')
 def home(name=""):
     if not session.get('logged_in'):
-        return render_template('login.html')
+        return "TEST"
     else:
         return hello(name=name)
 
