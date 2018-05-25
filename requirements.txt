@@ -18,4 +18,4 @@ urlparse3==1.1
 virtualenv==16.0.0
 virtualenv-clone==0.3.0
 gunicorn==19.7.1
-
+Django==1.11.5
