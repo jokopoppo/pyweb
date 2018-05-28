@@ -2,9 +2,10 @@ from flask import Flask, flash, redirect, render_template, request, session, abo
 from random import randint
 import os
 from sqlalchemy.orm import sessionmaker
-from tabledef import *
+from sqlalchemy import *
+# from tabledef import *
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
-from register import *
+# from register import *
 engine = create_engine('sqlite:///tutorial.db', echo=True)
 
 app = Flask(__name__)
@@ -15,6 +16,10 @@ def home(name=""):
         return render_template('login.html')
     else:
         return hello(name=name)
+
+@app.route('/test')
+def test():
+    return "Deploy Success"
 
 
 @app.route('/login', methods=['POST'])
