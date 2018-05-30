@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b005152e-9863-4d21-8fe2-0f5dbcfee189" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" afterPath="$PROJECT_DIR$/app/app.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+            <state relative-caret-position="323">
+              <caret line="97" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="13" />
               <folding>
                 <element signature="e#0#82#0" expanded="true" />
               </folding>
@@ -30,10 +29,10 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="469">
+              <caret line="98" column="13" lean-forward="false" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +74,8 @@
         <option value="$PROJECT_DIR$/app/tabledef.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="D:/ChatBot/app.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/app/app.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -707,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+        <state relative-caret-position="323">
+          <caret line="97" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="13" />
           <folding>
             <element signature="e#0#82#0" expanded="true" />
           </folding>
@@ -717,10 +716,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="469">
+          <caret line="98" column="13" lean-forward="false" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
