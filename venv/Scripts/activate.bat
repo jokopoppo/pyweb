@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=D:\pyweb\venv"
+set "VIRTUAL_ENV=D:\CPE#Y3\data-mining\NeuronNW\venv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
