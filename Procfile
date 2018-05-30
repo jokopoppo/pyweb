@@ -1,2 +1,1 @@
-cd app
-web: gunicorn app:app
+web: gunicorn --pythonpath app.app
