@@ -3,9 +3,9 @@ from random import randint
 import os
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import *
-from tabledef import *
+# from tabledef import *
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
-from register import *
+# from register import *
 engine = create_engine('sqlite:///tutorial.db', echo=True)
 
 app = Flask(__name__)
@@ -96,4 +96,5 @@ def register():
     return render_template('register.html', form=form)
 
 if __name__ == "__main__":
-    app.run()
+    app.secret_key = os.urandom(12)
+    app.run(debug=True,host='0.0.0.0', port=4000)
