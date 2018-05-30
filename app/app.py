@@ -3,15 +3,15 @@ from random import randint
 import os
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import *
-# from tabledef import *
+from tabledef import *
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
-# from register import *
+from register import *
 engine = create_engine('sqlite:///tutorial.db', echo=True)
 
 app = Flask(__name__)
 
 @app.route('/')
-def home(name=""):
+def home():
     if not session.get('logged_in'):
         return render_template('login.html')
     else:
